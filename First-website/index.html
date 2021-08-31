@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My 10 favourite things</title>
-    <style>
-      body {background-color: #A2D9CE;}
-      div {
-        padding: 30px 70px 30px 70px;
-        color: #1C2833;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      }
-      h1, h3 {text-align: center;}
-      a {color: #1C2833;}
-    </style>
+    <link rel="stylesheet" href="styles/index.css">
   </head>
 
   <body>
-    <div>
+    <header>
       <h1> My Favourite Things In Life</h1>
-      <p>
+      <p id="intro">
         The world is a magical place, filled with many wonderful things.
         <br>Cute puppies, beautiful sunsets, roaring waves and live music, to name a few.
         <br> Of all the happy and beautiful moments life can offer, I am,
         <br> just like Amélie Poulain, particularly fond of the small enjoyments in life.
-        <img src="images/beach_horse.JPEG" alt="Horse on a beach" style="float:right; width:300px; height:500px;" />
+      </p>
+    </header>
+    <main>
+      <img src="images/beach_horse.jpg"; alt="Horse on a beach"; title= "Horse on a beach" >
 
+      <section>
+        <h3> <!--Write some more content for this section-->
+          Some more text
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Repellendus qui dolor esse corporis dolore, itaque tempore! Ducimus, quaerat repudiandae odit eius quod nostrum.
+          Eum dolore aperiam cum soluta, sit sint.
+        </p>
+      </section>
+      <section>
         <h3>Here is my Top 10 list of fabulous things in life:</h3>
-        <p><em>N.B. Listed in no particular order. </em></p>
-        <ul>
+                <ul> <!--varför kan jag inte byta symbol i listan?-->
           <li>Italian ice cream</li>
           <li>Cats </li>
           <li>The sound of the ocean</li>
@@ -41,19 +45,25 @@
           <li>The soft touch of a horse mule</li>
           <li>Acts of kindness from a stranger</li>
         </ul>
-      </p>
-      <h3>What small things do you enjoy in life? </h3>
-      <p>Contact me and tell me what makes you smile.</p>
-      <a href="mailto:sarakallqvist@gmail.com">Send email</a>
-
-      <p>
-        I also enjoy stumbling across websites that tickle my curiosity and makes me marvel at today's technology.
+        <p id="nota-bene"> N.B. Listed in no particular order. </p>
+      </section>
+      <section>
+        <h3>What small things do you enjoy in life? </h3>
+        <p>Contact me and tell me what makes you smile.</p>
+        <a href="mailto: sarakallqvist@gmail.com">Send email</a>
+      </section>
+      <section>
+        <p>
+        I also enjoy stumbling across websites that tickle my curiosity and make me marvel at today's technology.
         <br>Here is a link to one of my long time favorite websites.
-      </p>
-      <a href="https://thispersondoesnotexist.com/" title= "AI portraits of people who don't exist" target= "_blank"> thispersondoesnotexist </a>
+        </p>
+        <a href="https://thispersondoesnotexist.com/"
+        title= "AI portraits of people who don't exist"
+        target= "_blank"> thispersondoesnotexist </a>
+      </section>
       <br>
-    </div>
-    <footer> Made by Sara K. 2021</footer>
+    </main>
+    <footer> Made by Sara K. 2021. Last updated 2021-08-31</footer>
   </body>
   <!--How do we change the world? One random act of kindness at a time. - Ron Hall -->
 </html>

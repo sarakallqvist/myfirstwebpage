@@ -1,0 +1,24 @@
+body {
+    background-color: #EFC397;
+    padding: 30px 70px 30px 70px;
+    color: #1F1A10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    h1, h3 {background-color:#614C2F; text-align: center;}
+    a {color: #1F1A10;}
+    img {
+        float:right;
+        max-width: 30%;
+        height: auto;
+        border-color: #6F8878;
+        border-style: double;
+        border-width: 10px;
+        border-radius: 5px;
+        }
+#intro {
+    color:#404F21; text-align: center; font-size: larger;
+}
+#nota-bene {
+    font-style: italic; font-size:smaller;
+}
+
