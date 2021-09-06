@@ -2,9 +2,9 @@ body {
     background-color: #EFC397;
     padding: 30px 70px 30px 70px;
     color: #1F1A10;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Urbanist', sans-serif;
     }
-h1, h3 {background-color:#614C2F; text-align: center;}
+h1, h3 {background-color:#614C2F; text-align: center; font-family: 'Shadows Into Light', cursive;}
 a {color: #1F1A10;}
 #intro {
     color:#404F21; text-align: center; font-size: larger;
@@ -30,11 +30,9 @@ a {color: #1F1A10;}
     border-radius: 5px;
     }
 
-.info-content {
-    width: 60%;
-    height: 100%;
-    margin-top: 20px;
-}
+.fa-heart {
+    color:#6F8878;
+    }
 
 #nota-bene {
     font-style: italic; font-size:smaller;
